@@ -1,7 +1,17 @@
 body{
     font-family: 'Cousine', monospace;
+    font-size: 75px;
+    position: relative;
+    background-image: url(media/Surface-Laptop-2-8.jpg);
+    text-transform: uppercase;
 }
 .text{
     position: absolute;
-    z-index: 100000000000000000000000000000000000000000000000000;
+    text-shadow: -5px 3px 0px rgb(56, 56, 56);
+    letter-spacing: 5px;
+}
+.image{
+    position: absolute;
+    padding: 50px;
+    margin: 10px;
 }
