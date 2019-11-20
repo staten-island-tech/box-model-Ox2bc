@@ -1,17 +1,22 @@
+html{
+    font-size: 62.5%;
+}
 body{
     font-family: 'Cousine', monospace;
-    font-size: 75px;
     position: relative;
     background-image: url(media/Surface-Laptop-2-8.jpg);
     text-transform: uppercase;
 }
 .text{
     position: absolute;
-    text-shadow: -5px 3px 0px rgb(56, 56, 56);
-    letter-spacing: 5px;
+    text-shadow: -.5rem 3px 0px rgb(56, 56, 56);
+    letter-spacing: .5rem;
+    font-size: 7rem;
+    z-index: 5;
+    color: darkgrey;
 }
 .image{
     position: absolute;
-    padding: 50px;
-    margin: 10px;
+    padding: 5rem;
+    margin: 1rem;
 }
