@@ -3,9 +3,11 @@ html{
 }
 body{
     font-family: 'Cousine', monospace;
-    position: relative;
     background-image: url(media/Surface-Laptop-2-8.jpg);
     text-transform: uppercase;
+}
+.position{
+    position: relative;
 }
 .text{
     position: absolute;
